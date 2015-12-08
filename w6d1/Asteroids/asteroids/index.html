@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <style media="screen">
+      body {
+        background: black;
+      }
+    </style>
+
+    <canvas></canvas>
+    <script src="keymaster.js"></script>
+    <script src="lib/utils.js"></script>
+    <script src="lib/movingObject.js"></script>
+    <script src="lib/asteroid.js"></script>
+    <script src="lib/bullet.js"></script>
+    <script src="lib/ship.js"></script>
+    <script src="lib/game.js"></script>
+    <script src="lib/gameView.js"></script>
+    <script>
+
+    var gameView = new Asteroids.GameView();
+    gameView.start();
+    // console.log(game.asteroids);
+    // var object = new Asteroids.MovingObject(
+    //   { pos: [300, 300], vel: [250, 250], radius: 200, color: "orange"}
+    // );
+    // object.move();
+    // object.draw(ctx);
+    // object.move();
+    // object.draw(ctx);
+    // new Circles.Game(
+    //   canvasEl.width,
+    //   canvasEl.height
+    // ).start(canvasEl);
+    </script>
+  </body>
+</html>
